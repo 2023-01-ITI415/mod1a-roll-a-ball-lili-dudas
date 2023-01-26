@@ -31,7 +31,7 @@ public class PlayerControl : MonoBehaviour
        Vector2 movementVector = movementValue.Get<Vector2>();
 
        movementX = movementVector.x;
-       movementX = movementVector.y;
+       movementY = movementVector.y;
     }
 
     void FixedUpdate()
